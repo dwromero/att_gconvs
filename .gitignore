@@ -13,3 +13,5 @@ attgconv/group/R2R+.py
 
 demo/Demo_RotoTranslations_SE2_noJupyter.py
 demo/Demo_RotoTranslations_Attentive_SE2.py
+
+experiments/cifar10/saved/model_f_att_p4_allcnnc_optim_sgd_lr_0.05_wd_0.001_seed_0_torchvision_dataset_augment
