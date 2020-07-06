@@ -2,7 +2,7 @@
 
 This repository contains the source code accompanying the paper:
  
- [Attentive Group Equivariant Convolutional Neural Networks](https://arxiv.org/abs/2002.03830) **David W. Romero, Erik J. Bekkers, Jakub M. Tomczak & Mark Hoogendoorn**, ICML 2020. 
+ [Attentive Group Equivariant Convolutional Neural Networks](https://arxiv.org/abs/2002.03830) <br/>**David W. Romero, Erik J. Bekkers, Jakub M. Tomczak & Mark Hoogendoorn**, ICML 2020. 
 
 *Although group convolutional networks are able to learn powerful representations based on symmetry patterns, they lack explicit means to learn meaningful relationships among them 
 (e.g., relative positions and poses). In this paper, we present attentive group equivariant convolutions, a generalization of the group convolution, in which attention is applied 
