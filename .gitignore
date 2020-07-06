@@ -12,5 +12,4 @@ experiments/imagenet*
 
 experiments/cifar10*
 experiments/pcam*
-experiments/rot_mnist/saved/model_f_att_p4cnn_optim_adam_lr_0.001_wd_0.0001_seed_0*
 attgconv/group/R2R+.py
