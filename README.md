@@ -1,4 +1,4 @@
-## Attentive Group Equivariant Convolutional Neural Networks
+## Attentive Group Equivariant Convolutional Networks
 
 This repository contains the source code accompanying the paper:
  
