@@ -414,12 +414,3 @@ class fSpatialAttentionGG(ConvGGLayer):
             self.att_map = output
         # Return the output
         return output
-
-
-
-
-
-
-
-
-

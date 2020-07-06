@@ -49,10 +49,12 @@ conda install numpy==1.17.4 scipy==1.3.2 matplotlib==3.1.1 jupyter==1.0.0 --yes
 ```
 
 ## Experiments
+For the sake of reproducibility, we provide the parameters used in the corresponding baselines hardcoded by default. If you wish to vary these parameters
+for your own experiments, please modify the corresponding `parser.py` file in the experiment folder and erase the hard-coded values from the `run_experiment.py` file.
 
 ### Pretrained Models
 We provide some pretrained models from our experiments for easy reproducibility. To use these models, utilize the keyword `--pretrained` and make sure
-the training parameters correspond to those given in the folder name.
+the training parameters as well as the additional `--extra_comment` argument correspond to those given in the folder 
 
 ### Datasets
 The utilized datasets have been uploaded to a repository for reproducibility. Please extract the files in the corresponding `experiments/experiment_i/data` folder.
