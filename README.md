@@ -2,7 +2,7 @@
 
 This repository contains the source code accompanying the paper:
  
- **David W. Romero, Erik J. Bekkers, Jakub M. Tomczak & Mark Hoogendoorn** [Attentive Group Equivariant Convolutional Neural Networks](https://arxiv.org/abs/2002.03830), ICML 2020. 
+ [Attentive Group Equivariant Convolutional Neural Networks](https://arxiv.org/abs/2002.03830) **David W. Romero, Erik J. Bekkers, Jakub M. Tomczak & Mark Hoogendoorn**, ICML 2020. 
 
 *Although group convolutional networks are able to learn powerful representations based on symmetry patterns, they lack explicit means to learn meaningful relationships among them 
 (e.g., relative positions and poses). In this paper, we present attentive group equivariant convolutions, a generalization of the group convolution, in which attention is applied 
@@ -10,7 +10,7 @@ during the course of convolution to accentuate meaningful symmetry combinations 
 described as special cases of our proposed framework and show empirically that our attentive group equivariant convolutional networks consistently outperform conventional group 
 convolutional networks on benchmark image datasets. Simultaneously, we provide interpretability to the learned concepts through the visualization of equivariant attention maps.* 
 
-<img src="att_gcnn_all.png" alt="drawing" width="900"/>
+<img src="att_gcnn_all.png" alt="drawing" width="750"/>
 
 ## Folder structure
 The folder structure is as follows:
@@ -39,7 +39,7 @@ The exact specification of our environment is provided in the file `environment.
 ```
 conda env create -f environment.yml
 ```
-Or can be constructed manually with conda via:
+or constructed manually with conda via:
 ```
 conda create --yes --name torch
 conda activate torch
@@ -50,22 +50,22 @@ conda install numpy==1.17.4 scipy==1.3.2 matplotlib==3.1.1 jupyter==1.0.0 --yes
 
 ## Experiments
 
-#### Pretrained Models
+### Pretrained Models
 We provide some pretrained models from our experiments for easy reproducibility. To use these models, utilize the keyword `--pretrained` and make sure
 the training parameters correspond to those given in the folder name.
 
-#### Datasets
+### Datasets
 The utilized datasets have been uploaded to a repository for reproducibility. Please extract the files in the corresponding `experiments/experiment_i/data` folder.
 
 **Rot-MNIST:** 
 
-Link: https://www.dropbox.com/sh/wbabjef7nxqn6xu/AADPkmilFqzgHSlxRD7GOnX4a?dl=0
+The dataset can be downloaded from: https://drive.google.com/file/d/1PcPdBOyImivBz3IMYopIizGvJOnfgXGD/view?usp=sharing
 
 **PCAM**: 
 
-We use an `ImageFolder` structure for our experiments. A file containing the entire dataset in this format is provided in : https://drive.google.com/file/d/1THSEUCO3zg74NKf_eb3ysKiiq2182iMH/view?usp=sharing
+We use an `ImageFolder` structure for our experiments. A file containing the entire dataset in this format can be downloaded from: https://drive.google.com/file/d/1THSEUCO3zg74NKf_eb3ysKiiq2182iMH/view?usp=sharing
 
-The code to transform the dataset into this format is provided in the `experiments/pcam/data/` folder.
+Code used to transform the `.h5` dataset to this format is provided in `experiments/pcam/data/`.
 ## Cite
 If you found this work useful in your research, please consider citing:
 ```
