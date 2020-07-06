@@ -1,0 +1,6 @@
+Namespace(augment=False, batch_size=128, device='cuda:0', epochs=350, extra_comment='torchvision_dataset_augment', lr=0.05, model='f_att_p4_allcnnc', optim='sgd', path='./saved/model_f_att_p4_allcnnc_optim_sgd_lr_0.05_wd_0.001_seed_0_torchvision_dataset_augment/model.pth', pretrained=False, seed=0, weight_decay=0.001)
+2020-07-06 13:59:30.867203
+Epoch 1/350
+------------------------------
+Learning Rate: 0.05
+------------------------------

@@ -10,3 +10,6 @@ experiments/imagenet*
 
 experiments/pcam*
 attgconv/group/R2R+.py
+
+demo/Demo_RotoTranslations_SE2_noJupyter.py
+demo/Demo_RotoTranslations_Attentive_SE2.py

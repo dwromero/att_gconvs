@@ -153,7 +153,6 @@ class P4AllCNNC(nn.Module):
 
 
     def forward(self, x):
-        #x = torch.rot90(x, k=2, dims=[-2,-1])
         out = torch.relu(self.bn1(self.c1(self.dp_init(x))))
         out = torch.relu(self.bn2(self.c2(out)))
         if self.really_equivariant:
