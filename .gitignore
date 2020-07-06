@@ -1,14 +1,14 @@
 .idea/*
 experiments/rot_mnist/data/*
 experiments/cifar10/data/*
-experiments/cifar10/images/*
-experiments/pcam/data/*
-experiments/pcam/saved/*
-experiments/pcam/saved/*/*.npy
-experiments/pcam/saved/*/*.pth
+experiments/pcam/data/valid/*
+experiments/pcam/data/train/*
+experiments/pcam/data/test/*
+experiments/pcam/data/*.h5
+experiments/pcam/data/*.csv
+experiments/pcam/data/PCam_ImageFolder_structure.7z
 experiments/imagenet*
 
-experiments/pcam*
 attgconv/group/R2R+.py
 
 demo/Demo_RotoTranslations_SE2_noJupyter.py
