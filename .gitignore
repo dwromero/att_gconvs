@@ -1,0 +1,16 @@
+.idea/*
+experiments/rot_mnist/data/*
+experiments/rot_mnist/saved/*/*.npy
+experiments/rot_mnist/saved/*/*.pth
+experiments/cifar10/data/*
+experiments/cifar10/saved/*/*.npy
+experiments/cifar10/saved/*/*.pth
+experiments/cifar10/images/*
+experiments/pcam/data/*
+experiments/pcam/saved/*
+experiments/pcam/saved/*/*.npy
+experiments/pcam/saved/*/*.pth
+experiments/imagenet*
+
+attgconv*
+experiments*
