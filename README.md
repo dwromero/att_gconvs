@@ -17,7 +17,7 @@ The folder structure is as follows:
 
 * `attgconv` contains the main PyTorch library. 
 
-* `demo` includes some short jupyter notebook demo's on how to use the the code. # **TODO:** Put in Notebooks.
+* `demo` includes some short jupyter notebook demo's on how to use the the code.
 
 * `experiments` contains the experiments described in the paper.
 
@@ -58,6 +58,7 @@ the training parameters as well as the additional `--extra_comment` argument cor
 
 ### Datasets
 The utilized datasets have been uploaded to a repository for reproducibility. Please extract the files in the corresponding `experiments/experiment_i/data` folder.
+For our experiments in **CIFAR-10**, we make use of the dataset provided in `torchvision`.
 
 **Rot-MNIST:** 
 
