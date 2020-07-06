@@ -12,5 +12,5 @@ experiments/pcam/saved/*/*.npy
 experiments/pcam/saved/*/*.pth
 experiments/imagenet*
 
-attgconv*
 experiments*
+attgconv/group/R2R+.py
