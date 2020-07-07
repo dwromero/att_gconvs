@@ -52,6 +52,10 @@ conda install numpy==1.17.4 scipy==1.3.2 matplotlib==3.1.1 jupyter==1.0.0 --yes
 For the sake of reproducibility, we provide the parameters used in the corresponding baselines hardcoded by default. If you wish to vary these parameters
 for your own experiments, please modify the corresponding `parser.py` file in the experiment folder and erase the hard-coded values from the `run_experiment.py` file.
 
+**Remark on `Logger` in experiments.** We provide a logger system that automatically saves any print during the execution of the program into a file named `saved/foldername/modellog_i.out`. 
+The logger object is created right before the training starts in the `run_experiment.py` file (line `sys.stdout = Logger(args)`). We recommend users working in an `slurm` environment to comment this line, as it will 
+otherwise impede writing into the corresponding `slurm_####.out` file. Hence, you won't be able to see any prints in the `slurm_####.out` file. Deactivated here by default.  
+
 ### Pretrained Models
 We provide some pretrained models from our experiments for easy reproducibility. To use these models, utilize the keyword `--pretrained` and make sure
 the training parameters as well as the additional `--extra_comment` argument correspond to those given in the folder name.

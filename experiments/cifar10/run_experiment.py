@@ -87,7 +87,7 @@ def main(args):
     # Train the model
     if not args.pretrained:
         # Create logger
-        sys.stdout = Logger(args)
+        # sys.stdout = Logger(args)
         # Print arguments (Sanity check)
         print(args)
         # Train the model
